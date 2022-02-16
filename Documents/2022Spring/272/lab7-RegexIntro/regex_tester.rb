@@ -13,4 +13,16 @@ lass RegexTester
     @statement
   end
 
+  def test
+    if pattern_matches? @statement
+      puts "MATCH: #{@statement}"
+    else
+      STDERR.puts "NO MATCH: #{@statement}"
+    end
+  end 
+
+  def pattern_matches? statement
+    statement.match(@pattern) != nil
+  end
+
 end
