@@ -1,0 +1,53 @@
+/* Sorted universal, classes, then ids alphabetically */
+/* This page is used to style item information pages */
+
+label{
+    margin: 2%;
+}
+
+
+/* Add cart button */
+.add-cart{
+    margin-top: 4%;
+    background-color: #77A193;
+    max-width: 35%;
+}
+
+.date{
+    margin: 0;
+    color: #C68C6F;
+}
+
+.details{
+    float:right;
+    max-width: 45%;
+}
+
+.option-buttons button{
+    max-width: 31%;
+    background-color: #E55E1C;
+    margin-right: 1%;
+    margin-bottom: 8%;
+}
+
+.price{
+    font-size: 1.25em;
+}
+
+/* Referes to a div - not the actual img */
+.product-img{
+    float:left;
+    max-width: 45%;
+}
+
+.product-img img{
+    max-width: 100%;
+}
+
+.reviewer-name{
+    margin-bottom: 0.5em;
+}
+
+.review-body{
+    margin: 0;
+}
